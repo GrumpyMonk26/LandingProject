@@ -81,6 +81,9 @@ footer {
     background-color: #1F2937;
     color: #fff;
     font-family: 'Roboto', arial;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-text {
