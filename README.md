@@ -1,0 +1,1 @@
+Small landing page project to show the concepts of flex box
