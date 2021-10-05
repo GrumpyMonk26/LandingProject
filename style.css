@@ -134,19 +134,54 @@ button {
     padding-right: 10px;
 }
 
-footer {
+.sign-up-section {
+    display: flex;
+    align-items: center;
+    margin: 70px 175px;
+    padding: 30px 100px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+h3 {
+    color: #ffffff;
+    padding: 0;
+}
+
+.sign-up-section p {
+    color: #ffffff;
+    opacity: 0.8;
+    padding: 0 important;
+}
+
+.text {
+    text-align: left;
+}
+
+.sign-up-button {
+    width: 50%;
+    margin-right: 0 auto;
+}
+
+.sign-up-button button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+    border-color: #ffffff;
+    outline: #fff;
+    
+}
+
+.footer {
     background-color: #1F2937;
     color: #fff;
     font-family: 'Roboto', arial;
-    /* position: fixed;
-    bottom: 0; */
-    width: 100%;
 }
 
 .footer-text {
-    font-size: 1rem;
-    padding: 10px;
-    left: 0;
-    bottom: 0;
     width: 100%;
 }
