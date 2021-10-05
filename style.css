@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', arial;
 }
 
+.conatainer {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-logo img {
     width: 84px;
     height: 84px;
@@ -40,6 +45,17 @@ h1 {
     color: #F9FAF8;
     margin: 0;
     font-family: 'Roboto', arial;
+    
+}
+
+.hero-info {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.hero-subheader {
+    font-size: 36px;
 }
 
 button {
@@ -77,12 +93,53 @@ button {
     height: 350px;
 }
 
+.secondary-hero {
+    align-items: center;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-section img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.quote-section p {
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-section b {
+    font-family: 'Roboto', arial;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
 footer {
     background-color: #1F2937;
     color: #fff;
     font-family: 'Roboto', arial;
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
 }
 
